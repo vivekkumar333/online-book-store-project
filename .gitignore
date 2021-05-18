@@ -21,3 +21,59 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+### Project Specific files ###
+/online-book-store-service/target/**
+/online-book-store-service/.settings/**
+/online-book-store-service/.project
+/online-book-store-service/.classpath
+/online-book-store-service/.settings
+/online-book-store-service/HELP.md
+/online-book-store-service/.gitignore
+/online-book-store-service/.factorypath
+
+
+### STS ###
+/online-book-store-service/.apt_generated
+/online-book-store-service/.springBeans
+/online-book-store-service/.sts4-cache
+
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files for Angular.
+# compiled output  
+online-book-store-angular-view/dist  
+online-book-store-angular-view/tmp  
+online-book-store-angular-view/out-tsc  
+
+# Only exists if Bazel was run
+online-book-store-angular-view/bazel-out
+  
+# dependencies  
+online-book-store-angular-view/node_modules  
+  
+# IDE - VSCode  
+online-book-store-angular-view/.vscode/*  
+online-book-store-angular-view/!.vscode/settings.json  
+online-book-store-angular-view/!.vscode/tasks.json  
+online-book-store-angular-view/!.vscode/launch.json  
+online-book-store-angular-view/!.vscode/extensions.json  
+  
+# misc  
+online-book-store-angular-view/.sass-cache  
+online-book-store-angular-view/connect.lock  
+online-book-store-angular-view/coverage  
+online-book-store-angular-view/libpeerconnection.log  
+online-book-store-angular-view/npm-debug.log  
+online-book-store-angular-view/yarn-error.log  
+online-book-store-angular-view/testem.log  
+online-book-store-angular-view/typings  
+
+# e2e
+online-book-store-angular-view/e2e/*.js
+online-book-store-angular-view/e2e/*.map
+  
+# System Files  
+online-book-store-angular-view/.DS_Store  
+online-book-store-angular-view/Thumbs.db  
