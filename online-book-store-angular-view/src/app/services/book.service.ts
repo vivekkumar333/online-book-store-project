@@ -9,7 +9,7 @@ import { Book } from '../common/book';
 })
 export class BookService {
 
-  private baseUrl = "http://localhost:8443/api/onlinebookshoppingservice/books?size=100";
+  private baseUrl = "http://localhost:8080/onlinebookstoreservice/books";
 
   constructor(private HttpClient : HttpClient) { }
 

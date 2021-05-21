@@ -31,6 +31,6 @@ public class BookCategory {
 	@Column(name = "category_name")
 	private String categoryName;
 	
-	@OneToMany(cascade = CascadeType.ALL, mappedBy = "bookCategory")
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "category")
 	private Set<Book> books;
 }

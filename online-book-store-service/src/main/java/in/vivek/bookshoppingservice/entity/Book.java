@@ -52,5 +52,5 @@ public class Book {
 	
 	@ManyToOne
 	@JoinColumn(name = "category_id",nullable = false)
-	private BookCategory bookCategory;	
+	private BookCategory category;	
 }
