@@ -27,7 +27,7 @@ export class BookService {
   getBookCategory() : Observable<BookCategory[]>{
 
     return this.HttpClient.get<GetResponseBookCategory>(this.bookCategoryUrl).pipe(
-      map(response => response._embedded.bookCategory)
+      map(response => response._embedded.bookCategories)
     );
   }
 }
@@ -40,6 +40,6 @@ interface GetResponseBooks{
 
 interface GetResponseBookCategory{
   _embedded : {
-      bookCategory : BookCategory[];
+    bookCategories : BookCategory[];
   }
 }

@@ -20,9 +20,7 @@ export class BookCategoryComponent implements OnInit {
 
   listBookCategories(){
     this._bookService.getBookCategory().subscribe(
-      data => {
-        console.log("Book Category :", data);
-      }
+      data => this.bookCategory = data
     );
   }
 }
